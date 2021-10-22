@@ -1,0 +1,16 @@
+body {
+  background-color: darkgrey;
+}
+
+h2, h3 {
+  margin: 0;
+}
+
+#Container-Mentions-Legales {
+  width: 80vw;
+  margin: auto;
+}
+
+#Container-Mentions-Legales > p {
+  font-family: monospace;
+}

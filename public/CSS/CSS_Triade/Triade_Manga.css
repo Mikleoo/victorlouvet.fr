@@ -1,0 +1,23 @@
+body {
+  background-color: lightslategrey;
+}
+
+.container-value-triade {
+  background-color: darkgray;
+}
+
+.plus-triade {
+  margin-top: 3px;
+}
+
+.border-left {
+  width: 2px;
+  background-color: black;
+  transform: rotate(-25deg);
+}
+
+.border-right {
+  width: 2px;
+  background-color: black;
+  transform: rotate(25deg);
+}

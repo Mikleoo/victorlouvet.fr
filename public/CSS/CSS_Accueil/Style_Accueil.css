@@ -1,0 +1,70 @@
+/* Text */
+#container-title {
+  position: fixed;
+  text-align: center;
+  top: calc((100% - 55px)/ 2);
+  width: 100%;
+}
+
+#titre-principal {
+  background-color: white;
+  opacity: 95%;
+  font-size: 3em;
+  margin: 0 auto;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+/* Hearth */
+#rond-coeur {
+  background: #e82c04;
+  box-shadow: 0px 0px 5px 1px #e82c04;
+
+  text-align: center;
+  width: 55px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 70%;
+  top: 0;
+
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#rond-coeur:hover {
+  -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);
+}
+
+#nombre-coeur {
+  font-size: 25px;
+  min-width: 40px;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+}
+
+#coeur {
+  width: 70%;
+  cursor: pointer;
+}
+
+/* Mobile Format */
+@media screen and (max-width: 560px) {
+
+  #container-title {
+    margin: 5px;
+    width: auto;
+  }
+
+  #titre-principal {
+    font-size: 2.2em;
+  }
+
+}

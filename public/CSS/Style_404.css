@@ -1,0 +1,15 @@
+#Error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Value-Error {
+  color: darkblue;
+  font-size: 10em;
+  margin: 0;
+}
+
+#Titre-error {
+  font-size: 2em;
+}

@@ -1,0 +1,534 @@
+.carre {
+  background: #F05535;
+  position: fixed;
+  z-index: -2;
+}
+
+.cercle {
+  background: #CD303C;
+  position: fixed;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.triangle {
+  position: fixed;
+  z-index: 0;
+  width: 0;
+  height: 0;
+}
+
+/* PC Format */
+@media screen and (min-width: 560px) {
+
+  #cercle_1 {
+    width: 140px;
+    height: 140px;
+    left: 10%;
+    top: 40%;
+
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-name: anim-cercle1;
+  }
+
+  @keyframes anim-cercle1 {
+    0% { transform: scale(1); }
+    50%  { transform: scale(1.05); }
+    100%   { transform: scale(1); }
+  }
+
+  #cercle_4 {
+    width: 100px;
+    height: 100px;
+    left: 23%;
+    top: 15%;
+  }
+
+  #cercle_6 {
+    width: 160px;
+    height: 160px;
+    left: 25%;
+    bottom: 5%;
+
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-name: anim-cercle6;
+  }
+
+  @keyframes anim-cercle6 {
+    0% { transform: scale(1); }
+    50%  { transform: scale(1.05); }
+    100%   { transform: scale(1); }
+  }
+
+  #cercle_10 {
+    width: 160px;
+    height: 160px;
+    left: 57%;
+    bottom: -2%;
+
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-name: anim-cercle10;
+  }
+
+  @keyframes anim-cercle10 {
+    0% { transform: scale(1); }
+    50%  { transform: scale(1.04); }
+    100%   { transform: scale(1); }
+  }
+
+  #cercle_12 {
+    width: 170px;
+    height: 170px;
+    left: 60%;
+    top: -10%;
+  }
+
+  #cercle_14 {
+    width: 110px;
+    height: 110px;
+    left: 90%;
+    top: 40%;
+
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-name: anim-cercle14;
+  }
+
+  @keyframes anim-cercle14 {
+    0% { transform: scale(1); }
+    50%  { transform: scale(1.08); }
+    100%   { transform: scale(1); }
+  }
+
+  #carre_7 {
+    width: 120px;
+    height: 120px;
+    left: 89%;
+    top: 70%;
+
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-name: anim-carre7;
+  }
+
+  @keyframes anim-carre7 {
+    0% { transform: translate(0, 0px) rotate(75deg); }
+    50%  { transform: translate(5px, 0px) rotate(75deg); }
+    100%   { transform: translate(0, 0px) rotate(75deg); }
+  }
+
+  #carre_8 {
+    width: 110px;
+    height: 110px;
+    left: 85%;
+    top: 10%;
+
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-name: anim-carre8;
+  }
+
+  @keyframes anim-carre8 {
+    0% { transform: translate(0, 0px) rotate(45deg); }
+    50%  { transform: translate(0px, -5px) rotate(45deg); }
+    100%   { transform: translate(0, 0px) rotate(45deg); }
+  }
+
+  #carre_11 {
+    width: 110px;
+    height: 110px;
+    left: 25%;
+    top: -12%;
+
+    transform: rotate(-45deg);
+  }
+
+  #triangle_10 {
+    border-top : 60px solid #531E4E;
+    border-right : 30px solid transparent;
+    border-left : 30px solid transparent;
+    left: 93%;
+    top: 28%;
+    transform: rotate(-50deg);
+  }
+
+}
+
+/* Css des carres orange en fond */
+#carre_1 {
+  width: 140px;
+  height: 140px;
+  left: 30%;
+  top: 40%;
+
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-name: anim-carre1;
+}
+
+@keyframes anim-carre1 {
+  0% { transform: translate(0, 0px) rotate(30deg); }
+  50%  { transform: translate(0, 5px) rotate(30deg); }
+  100%   { transform: translate(0, 0px) rotate(30deg); }
+}
+
+#carre_2 {
+  width: 130px;
+  height: 130px;
+  left: 10%;
+  top: 12%;
+
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-name: anim-carre2;
+}
+
+@keyframes anim-carre2 {
+  0% { transform: translate(0, 0px) rotate(80deg); }
+  50%  { transform: translate(5px, 0px) rotate(80deg); }
+  100%   { transform: translate(0, 0px) rotate(80deg); }
+}
+
+#carre_3 {
+  width: 110px;
+  height: 110px;
+  left: 15%;
+  top: 78%;
+
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-name: anim-carre3;
+}
+
+@keyframes anim-carre3 {
+  0% { transform: translate(0, 0px) rotate(25deg); }
+  50%  { transform: translate(5px, 5px) rotate(25deg); }
+  100%   { transform: translate(0, 0px) rotate(25deg); }
+}
+
+#carre_4 {
+  width: 160px;
+  height: 160px;
+  left: 50%;
+  top: 70%;
+
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-name: anim-carre4;
+}
+
+@keyframes anim-carre4 {
+  0% { transform: translate(0, 0px) rotate(90deg); }
+  50%  { transform: translate(-5px, 0px) rotate(90deg); }
+  100%   { transform: translate(0, 0px) rotate(90deg); }
+}
+
+#carre_5 {
+  width: 100px;
+  height: 100px;
+  left: 70%;
+  top: 45%;
+
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-name: anim-carre5;
+}
+
+@keyframes anim-carre5 {
+  0% { transform: translate(0, 0px) rotate(130deg); }
+  50%  { transform: translate(-5px, -5px) rotate(130deg); }
+  100%   { transform: translate(0, 0px) rotate(130deg); }
+}
+
+#carre_6 {
+  width: 150px;
+  height: 150px;
+  left: 55%;
+  top: 8%;
+
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-name: anim-carre6;
+}
+
+@keyframes anim-carre6 {
+  0% { transform: translate(0, 0px) rotate(70deg); }
+  50%  { transform: translate(-5px, 0px) rotate(70deg); }
+  100%   { transform: translate(0, 0px) rotate(70deg); }
+}
+
+#carre_9 {
+  width: 130px;
+  height: 130px;
+  left: -5%;
+  top: 35%;
+
+  transform: rotate(80deg);
+}
+
+#carre_10 {
+  width: 110px;
+  height: 110px;
+  left: -5%;
+  top: 80%;
+
+  transform: rotate(25deg);
+}
+
+#carre_12 {
+  width: 90px;
+  height: 90px;
+  left: 98%;
+  top: 60%;
+
+  transform: rotate(-25deg);
+}
+
+/* Css des cercles rouge en fond */
+
+#cercle_2 {
+  width: 100px;
+  height: 100px;
+  left: -3%;
+  top: -5%;
+
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-name: anim-cercle2;
+}
+
+@keyframes anim-cercle2 {
+  0% { transform: scale(1); }
+  50%  { transform: scale(1.07); }
+  100%   { transform: scale(1); }
+}
+
+#cercle_3 {
+  width: 100px;
+  height: 100px;
+  left: 5%;
+  top: 70%;
+}
+
+#cercle_5 {
+  width: 92px;
+  height: 92px;
+  left: 31%;
+  top: 58%;
+}
+
+#cercle_7 {
+  width: 65px;
+  height: 65px;
+  left: 42%;
+  top: 25%;
+}
+
+#cercle_8 {
+  width: 110px;
+  height: 110px;
+  left: 40%;
+  top: -5%;
+
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-name: anim-cercle8;
+}
+
+@keyframes anim-cercle8 {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+#cercle_9 {
+  width: 110px;
+  height: 110px;
+  left: 45%;
+  top: 45%;
+}
+
+#cercle_11 {
+  width: 170px;
+  height: 170px;
+  left: 55%;
+  top: 25%;
+
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-name: anim-cercle11;
+}
+
+@keyframes anim-cercle11 {
+  0% { transform: scale(1); }
+  50%  { transform: scale(1.08); }
+  100%   { transform: scale(1); }
+}
+
+#cercle_13 {
+  width: 140px;
+  height: 140px;
+  left: 85%;
+  top: -10%;
+
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-name: anim-cercle13;
+}
+
+@keyframes anim-cercle13 {
+  0% { transform: scale(1); }
+  50%  { transform: scale(1.09); }
+  100%   { transform: scale(1); }
+}
+
+#cercle_15 {
+  width: 80px;
+  height: 80px;
+  left: 75%;
+  top: 30%;
+
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-name: anim-cercle15;
+}
+
+@keyframes anim-cercle15 {
+  0% { transform: scale(1); }
+  50%  { transform: scale(1.05); }
+  100%   { transform: scale(1); }
+}
+
+#cercle_16 {
+  width: 110px;
+  height: 110px;
+  left: 72%;
+  top: 75%;
+}
+
+#cercle_17 {
+  width: 60px;
+  height: 60px;
+  left: 8%;
+  top: 15%;
+}
+
+/* Css des triangle violet en fond */
+#triangle_1 {
+  border-top : 100px solid #531E4E;
+  border-right : 50px solid transparent;
+  border-left : 50px solid transparent;
+  left: 1%;
+  top: 5%;
+  transform: rotate(-90deg);
+}
+
+#triangle_2 {
+  border-top : 80px solid #531E4E;
+  border-right : 40px solid transparent;
+  border-left : 40px solid transparent;
+  left: 10%;
+  top: 60%;
+  transform: rotate(90deg);
+}
+
+#triangle_3 {
+  border-top : 60px solid #531E4E;
+  border-right : 30px solid transparent;
+  border-left : 30px solid transparent;
+  left: 21%;
+  top: 40%;
+  transform: rotate(145deg);
+}
+
+#triangle_4 {
+  border-top : 100px solid #531E4E;
+  border-right : 60px solid transparent;
+  border-left : 60px solid transparent;
+  left: 40%;
+  top: 70%;
+  transform: rotate(200deg);
+}
+
+#triangle_5 {
+  border-top : 100px solid #531E4E;
+  border-right : 50px solid transparent;
+  border-left : 50px solid transparent;
+  left: 60%;
+  top: 55%;
+  transform: rotate(-65deg);
+}
+
+#triangle_6 {
+  border-top : 80px solid #531E4E;
+  border-right : 40px solid transparent;
+  border-left : 40px solid transparent;
+  left: 34%;
+  top: 16%;
+  transform: rotate(185deg);
+}
+
+#triangle_7 {
+  border-top : 80px solid #531E4E;
+  border-right : 40px solid transparent;
+  border-left : 40px solid transparent;
+  left: 70%;
+  top: 15%;
+  transform: rotate(70deg);
+}
+
+#triangle_8 {
+  border-top : 120px solid #531E4E;
+  border-right : 60px solid transparent;
+  border-left : 60px solid transparent;
+  left: 80%;
+  top: 45%;
+  transform: rotate(185deg);
+}
+
+#triangle_9 {
+  border-top : 100px solid #531E4E;
+  border-right : 50px solid transparent;
+  border-left : 50px solid transparent;
+  left: 82%;
+  top: 85%;
+  transform: rotate(-90deg);
+}
+
+#triangle_11 {
+  border-top : 80px solid #531E4E;
+  border-right : 40px solid transparent;
+  border-left : 40px solid transparent;
+  left: 20%;
+  top: 3%;
+  transform: rotate(-10deg);
+}
+
+#triangle_12 {
+  border-top : 120px solid #531E4E;
+  border-right : 60px solid transparent;
+  border-left : 60px solid transparent;
+  left: 50%;
+  top: 5%;
+  transform: rotate(-10deg);
+}

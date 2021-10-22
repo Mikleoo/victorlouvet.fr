@@ -1,0 +1,13 @@
+# robots.txt of victorlouvet.fr
+# This file is use by robots like google, ecosia...
+
+User-agent : *
+Disallow: /administrator/
+Disallow: /cli/
+Disallow: /controllers/
+Disallow: /models/
+Disallow: /public/
+Disallow: /templates/
+Disallow: /views/
+
+Sitemap : https://victorlouvet.fr/sitemap-xml

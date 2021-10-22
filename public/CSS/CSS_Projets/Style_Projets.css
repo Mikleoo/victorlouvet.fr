@@ -1,0 +1,11 @@
+body {
+  background-color: darkcyan;
+}
+
+.container-value-triade {
+    background-color: lightblue;
+}
+
+#container-triade {
+  row-gap: 70px !important;
+}

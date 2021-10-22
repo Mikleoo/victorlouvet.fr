@@ -1,0 +1,50 @@
+/* - Slideshow container :
+(Hide the images by default) */
+
+#container-slider-arrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#container-slider {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.slide {
+  display: none;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* Caption text */
+.pseudo-text-slide {
+  font-size: 12px;
+  word-wrap: break-word;
+}
+
+.conseil-text-slide {
+  font-size: 20px;
+  word-wrap: break-word;
+  margin: 4px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.prev:hover, .next:hover {
+  width: 80px;
+}
