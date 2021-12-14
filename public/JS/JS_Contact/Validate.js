@@ -1,10 +1,7 @@
 // Validation script for the "Contact" form
 // e.preventDefault(); -> Stop "action="file.php""
 
-window.onload = function() {
-  let envoi = document.getElementById('btn-envoi');
-  envoi.addEventListener('click', validate);
-}
+onLoadWindow ([], ["btn-envoi"], [validate], [], []);
 
 // Function that will validate the form by checking their information
 // e is a pointer of the event

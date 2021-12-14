@@ -1,19 +1,41 @@
-var cssFooter = document.createElement("style");
+let cssFooter = document.createElement("style");
 cssFooter.type = "text/css";
-var int = 0;
 
-function Footer() {
-  let footer = document.getElementsByClassName('footer-dark')[0],
-      btn = document.getElementsByClassName('footer-button')[0];
+// Launch function for the page Accueil with onLoadWindow in OnLoad.js
+// params : nameFonctionsStart, idsListener, nameFunctionsIdListener, classListener, nameFunctionsClassListener // All tabs
+onLoadWindow ([], ["Container-icon-menu"], [closeFooter], ["footer-button"], [footer]);
+
+function closeFooter() {
+
+  const footerUp = document.getElementById("FooterUp"),
+        containerIconeMenu = document.getElementById("Container-icon-menu");
+
+  if (containerIconeMenu.getAttribute("status") == "open" && footerUp.getAttribute("status") == "open") {
+    cssFooter.innerHTML = ".footer { transform: none; }";
+    footerUp.textContent = "^";
+    footerUp.setAttribute("status", "close");
+  }
+
+}
+
+function footer() {
+
+  const footerUp = document.getElementById("FooterUp"),
+        footerDown = document.getElementById("FooterDown"),
+        containerIconeMenu = document.getElementById("Container-icon-menu");
 
   // INJECT CSS
-  if (int % 2 === 0) {
-    cssFooter.innerHTML = ".footer { transform: translateY(-"+ footer.offsetHeight +"px); } .footer-dark { position : absolute;}";
-    btn.textContent = "v";
-  } else {
-    cssFooter.innerHTML = ".footer { transform: none; }";
-    btn.textContent = "^";
+  if (containerIconeMenu.getAttribute("status") == "close") {
+    if (footerUp.getAttribute("status") == "close") {
+      cssFooter.innerHTML = ".footer { transform: translateY(-"+ footerDown.offsetHeight +"px); } .footer-dark { position : absolute;}";
+      footerUp.textContent = "v";
+      footerUp.setAttribute("status", "open");
+    } else {
+      cssFooter.innerHTML = ".footer { transform: none; }";
+      footerUp.textContent = "^";
+      footerUp.setAttribute("status", "close");
+    }
+    document.body.appendChild(cssFooter);
   }
-  document.body.appendChild(cssFooter);
-  int += 1;
+
 }

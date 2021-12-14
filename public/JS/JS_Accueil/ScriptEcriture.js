@@ -64,7 +64,7 @@ TxtRotate.prototype.tick = function() {
 // Function which targets the HTML elements giving the array of String and the data
 // We will then initialize our object with all the necessary elements
 // Then inject css for the right border which simulates a text field
-function Ecriture() {
+function ecriture() {
   var elements = document.getElementsByClassName('txt-rotate');
   // We loop for each element found
   for (var i=0; i<elements.length; i++) {

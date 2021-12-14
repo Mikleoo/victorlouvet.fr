@@ -21,7 +21,7 @@
 /* PC Format */
 @media screen and (min-width: 560px) {
 
-  #cercle_1 {
+  #Cercle_1 {
     width: 140px;
     height: 140px;
     left: 10%;
@@ -39,14 +39,14 @@
     100%   { transform: scale(1); }
   }
 
-  #cercle_4 {
+  #Cercle_4 {
     width: 100px;
     height: 100px;
     left: 23%;
     top: 15%;
   }
 
-  #cercle_6 {
+  #Cercle_6 {
     width: 160px;
     height: 160px;
     left: 25%;
@@ -64,7 +64,7 @@
     100%   { transform: scale(1); }
   }
 
-  #cercle_10 {
+  #Cercle_10 {
     width: 160px;
     height: 160px;
     left: 57%;
@@ -82,14 +82,14 @@
     100%   { transform: scale(1); }
   }
 
-  #cercle_12 {
+  #Cercle_12 {
     width: 170px;
     height: 170px;
     left: 60%;
     top: -10%;
   }
 
-  #cercle_14 {
+  #Cercle_14 {
     width: 110px;
     height: 110px;
     left: 90%;
@@ -107,7 +107,7 @@
     100%   { transform: scale(1); }
   }
 
-  #carre_7 {
+  #Carre_7 {
     width: 120px;
     height: 120px;
     left: 89%;
@@ -125,7 +125,7 @@
     100%   { transform: translate(0, 0px) rotate(75deg); }
   }
 
-  #carre_8 {
+  #Carre_8 {
     width: 110px;
     height: 110px;
     left: 85%;
@@ -143,7 +143,7 @@
     100%   { transform: translate(0, 0px) rotate(45deg); }
   }
 
-  #carre_11 {
+  #Carre_11 {
     width: 110px;
     height: 110px;
     left: 25%;
@@ -152,7 +152,7 @@
     transform: rotate(-45deg);
   }
 
-  #triangle_10 {
+  #Triangle_10 {
     border-top : 60px solid #531E4E;
     border-right : 30px solid transparent;
     border-left : 30px solid transparent;
@@ -164,7 +164,7 @@
 }
 
 /* Css des carres orange en fond */
-#carre_1 {
+#Carre_1 {
   width: 140px;
   height: 140px;
   left: 30%;
@@ -182,7 +182,7 @@
   100%   { transform: translate(0, 0px) rotate(30deg); }
 }
 
-#carre_2 {
+#Carre_2 {
   width: 130px;
   height: 130px;
   left: 10%;
@@ -200,7 +200,7 @@
   100%   { transform: translate(0, 0px) rotate(80deg); }
 }
 
-#carre_3 {
+#Carre_3 {
   width: 110px;
   height: 110px;
   left: 15%;
@@ -218,7 +218,7 @@
   100%   { transform: translate(0, 0px) rotate(25deg); }
 }
 
-#carre_4 {
+#Carre_4 {
   width: 160px;
   height: 160px;
   left: 50%;
@@ -236,7 +236,7 @@
   100%   { transform: translate(0, 0px) rotate(90deg); }
 }
 
-#carre_5 {
+#Carre_5 {
   width: 100px;
   height: 100px;
   left: 70%;
@@ -254,7 +254,7 @@
   100%   { transform: translate(0, 0px) rotate(130deg); }
 }
 
-#carre_6 {
+#Carre_6 {
   width: 150px;
   height: 150px;
   left: 55%;
@@ -272,7 +272,7 @@
   100%   { transform: translate(0, 0px) rotate(70deg); }
 }
 
-#carre_9 {
+#Carre_9 {
   width: 130px;
   height: 130px;
   left: -5%;
@@ -281,7 +281,7 @@
   transform: rotate(80deg);
 }
 
-#carre_10 {
+#Carre_10 {
   width: 110px;
   height: 110px;
   left: -5%;
@@ -290,7 +290,7 @@
   transform: rotate(25deg);
 }
 
-#carre_12 {
+#Carre_12 {
   width: 90px;
   height: 90px;
   left: 98%;
@@ -301,7 +301,7 @@
 
 /* Css des cercles rouge en fond */
 
-#cercle_2 {
+#Cercle_2 {
   width: 100px;
   height: 100px;
   left: -3%;
@@ -319,28 +319,28 @@
   100%   { transform: scale(1); }
 }
 
-#cercle_3 {
+#Cercle_3 {
   width: 100px;
   height: 100px;
   left: 5%;
   top: 70%;
 }
 
-#cercle_5 {
+#Cercle_5 {
   width: 92px;
   height: 92px;
   left: 31%;
   top: 58%;
 }
 
-#cercle_7 {
+#Cercle_7 {
   width: 65px;
   height: 65px;
   left: 42%;
   top: 25%;
 }
 
-#cercle_8 {
+#Cercle_8 {
   width: 110px;
   height: 110px;
   left: 40%;
@@ -358,14 +358,14 @@
   100% { transform: scale(1); }
 }
 
-#cercle_9 {
+#Cercle_9 {
   width: 110px;
   height: 110px;
   left: 45%;
   top: 45%;
 }
 
-#cercle_11 {
+#Cercle_11 {
   width: 170px;
   height: 170px;
   left: 55%;
@@ -383,7 +383,7 @@
   100%   { transform: scale(1); }
 }
 
-#cercle_13 {
+#Cercle_13 {
   width: 140px;
   height: 140px;
   left: 85%;
@@ -401,7 +401,7 @@
   100%   { transform: scale(1); }
 }
 
-#cercle_15 {
+#Cercle_15 {
   width: 80px;
   height: 80px;
   left: 75%;
@@ -419,14 +419,14 @@
   100%   { transform: scale(1); }
 }
 
-#cercle_16 {
+#Cercle_16 {
   width: 110px;
   height: 110px;
   left: 72%;
   top: 75%;
 }
 
-#cercle_17 {
+#Cercle_17 {
   width: 60px;
   height: 60px;
   left: 8%;
@@ -434,7 +434,7 @@
 }
 
 /* Css des triangle violet en fond */
-#triangle_1 {
+#Triangle_1 {
   border-top : 100px solid #531E4E;
   border-right : 50px solid transparent;
   border-left : 50px solid transparent;
@@ -443,7 +443,7 @@
   transform: rotate(-90deg);
 }
 
-#triangle_2 {
+#Triangle_2 {
   border-top : 80px solid #531E4E;
   border-right : 40px solid transparent;
   border-left : 40px solid transparent;
@@ -452,7 +452,7 @@
   transform: rotate(90deg);
 }
 
-#triangle_3 {
+#Triangle_3 {
   border-top : 60px solid #531E4E;
   border-right : 30px solid transparent;
   border-left : 30px solid transparent;
@@ -461,7 +461,7 @@
   transform: rotate(145deg);
 }
 
-#triangle_4 {
+#Triangle_4 {
   border-top : 100px solid #531E4E;
   border-right : 60px solid transparent;
   border-left : 60px solid transparent;
@@ -470,7 +470,7 @@
   transform: rotate(200deg);
 }
 
-#triangle_5 {
+#Triangle_5 {
   border-top : 100px solid #531E4E;
   border-right : 50px solid transparent;
   border-left : 50px solid transparent;
@@ -479,7 +479,7 @@
   transform: rotate(-65deg);
 }
 
-#triangle_6 {
+#Triangle_6 {
   border-top : 80px solid #531E4E;
   border-right : 40px solid transparent;
   border-left : 40px solid transparent;
@@ -488,7 +488,7 @@
   transform: rotate(185deg);
 }
 
-#triangle_7 {
+#Triangle_7 {
   border-top : 80px solid #531E4E;
   border-right : 40px solid transparent;
   border-left : 40px solid transparent;
@@ -497,7 +497,7 @@
   transform: rotate(70deg);
 }
 
-#triangle_8 {
+#Triangle_8 {
   border-top : 120px solid #531E4E;
   border-right : 60px solid transparent;
   border-left : 60px solid transparent;
@@ -506,7 +506,7 @@
   transform: rotate(185deg);
 }
 
-#triangle_9 {
+#Triangle_9 {
   border-top : 100px solid #531E4E;
   border-right : 50px solid transparent;
   border-left : 50px solid transparent;
@@ -515,7 +515,7 @@
   transform: rotate(-90deg);
 }
 
-#triangle_11 {
+#Triangle_11 {
   border-top : 80px solid #531E4E;
   border-right : 40px solid transparent;
   border-left : 40px solid transparent;
@@ -524,7 +524,7 @@
   transform: rotate(-10deg);
 }
 
-#triangle_12 {
+#Triangle_12 {
   border-top : 120px solid #531E4E;
   border-right : 60px solid transparent;
   border-left : 60px solid transparent;

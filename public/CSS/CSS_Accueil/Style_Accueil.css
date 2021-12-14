@@ -1,12 +1,12 @@
 /* Text */
-#container-title {
+#Container-title {
   position: fixed;
   text-align: center;
   top: calc((100% - 55px)/ 2);
   width: 100%;
 }
 
-#titre-principal {
+#Titre-principal {
   background-color: white;
   opacity: 95%;
   font-size: 3em;
@@ -16,7 +16,7 @@
 }
 
 /* Hearth */
-#rond-coeur {
+#Rond-coeur {
   background: #e82c04;
   box-shadow: 0px 0px 5px 1px #e82c04;
 
@@ -34,7 +34,7 @@
   cursor: pointer;
 }
 
-#rond-coeur:hover {
+#Rond-coeur:hover {
   -webkit-transform:scale(1.05); /* Safari and Chrome */
     -moz-transform:scale(1.05); /* Firefox */
     -ms-transform:scale(1.05); /* IE 9 */
@@ -42,7 +42,7 @@
      transform:scale(1.05);
 }
 
-#nombre-coeur {
+#Nombre-coeur {
   font-size: 25px;
   min-width: 40px;
   width: 100%;
@@ -50,7 +50,7 @@
   cursor: pointer;
 }
 
-#coeur {
+#Coeur {
   width: 70%;
   cursor: pointer;
 }
@@ -58,12 +58,12 @@
 /* Mobile Format */
 @media screen and (max-width: 560px) {
 
-  #container-title {
+  #Container-title {
     margin: 5px;
     width: auto;
   }
 
-  #titre-principal {
+  #Titre-principal {
     font-size: 2.2em;
   }
 

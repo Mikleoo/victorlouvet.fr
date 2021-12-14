@@ -1,10 +1,7 @@
 // Validation script for the "Secret" form
 // e.preventDefault(); -> Stop "action="file.php""
 
-window.onload = function() {
-  let envoi = document.getElementById('button-form');
-  envoi.addEventListener('click', validate);
-}
+onLoadWindow ([], ["button-form"], [validate], [], []);
 
 function validate(e) {
 

@@ -1,11 +1,11 @@
 <!-- FOOTER START -->
 <div id="container-footer">
 
-  <div class="footer footer-button" onclick="Footer()">
+  <div class="footer footer-button" id="FooterUp" status="close">
     ^
   </div>
 
-  <div class="footer footer-dark">
+  <div class="footer footer-dark" id="FooterDown">
     <footer>
       <div class="container">
 

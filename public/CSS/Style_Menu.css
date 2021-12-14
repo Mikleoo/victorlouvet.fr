@@ -13,15 +13,12 @@
 
   display: flex;
   align-items: center;
+  height: 50px;
 }
 
 #Titre-page {
   font-size: 2em;
   margin: 2px;
-}
-
-#Container-titre-menu {
-  opacity: 80%;
 }
 
 #Triangle-menu {
@@ -32,12 +29,12 @@
   cursor: pointer;
 }
 
-#Container-icon-menu {
-  width: 50px;
-  height: 50px;
+.container-icon {
+  width: 45px;
+  height: 45px;
 }
 
-#Container-icon-menu:hover {
+.container-icon:hover {
   -webkit-transform:scale(1.05); /* Safari and Chrome */
     -moz-transform:scale(1.05); /* Firefox */
     -ms-transform:scale(1.05); /* IE 9 */
@@ -45,7 +42,7 @@
      transform:scale(1.05);
 }
 
-#Icon-menu {
+.icone {
   width: 100%;
   height: 100%;
   cursor: pointer;

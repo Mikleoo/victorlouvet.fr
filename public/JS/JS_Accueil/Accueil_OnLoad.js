@@ -1,5 +1,2 @@
-// When the page loads, we call the following functions
-window.onload = function() {
-  ifLike();
-  Ecriture();
-}
+//Launch function for the page Accueil with onLoadWindow in OnLoad.js
+onLoadWindow ([ifLike, ecriture], [], [], [], []);

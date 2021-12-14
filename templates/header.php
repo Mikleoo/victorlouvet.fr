@@ -14,6 +14,7 @@
   }
   echo "\n";
   ?>
+  <script src="public/JS/OnLoad.js"></script>
   <script src="public/JS/Menu.js"></script>
   <script src="public/JS/Footer.js"></script>
   <?php

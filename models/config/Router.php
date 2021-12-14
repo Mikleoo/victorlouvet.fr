@@ -23,7 +23,7 @@ class Router {
         $this->addRoute('GET', '/Connexion', 'administrator/controllers/connexion');
         $this->addRoute('GET', '/Mentions-Legales', 'controllers/Mentions-Legales');
     }
-    
+
     private function __clone() {}
 
     private function addRoute($method, $route, $controller) {
@@ -42,10 +42,10 @@ class Router {
         return require_once($route['controller'].'.php');
     }
 
-    public function checkRoute($method, $uri) {
+    public function checkRoute($method, $requestUrl) {
         $isReqValid = false;
         foreach($this->routes as $route) {
-            if($route['method'] == $method && $route['route'] == $uri) {
+            if($route['method'] == $method && $route['route'] == $requestUrl) {
                 $validRoute = $route;
                 $isReqValid = true;
                 break;

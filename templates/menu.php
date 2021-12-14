@@ -20,9 +20,12 @@
   <div id="Container-menu">
     <div id="Container-menu-titre-icon">
       <<?= $title_h ?> id="Titre-page"><?= $nom_page ?></<?= $title_h ?>>
-      <span id="Triangle-menu" status="open" onclick="turn()"></span>
-      <div id="Container-icon-menu" status="close" onclick="openForm()">
-        <img id="Icon-menu" src="public/SVG/menu-carre.svg" alt="menu carre">
+      <span id="Triangle-menu" status="open"></span>
+      <div class="container-icon" id="Container-icon-question">
+        <img class="icone" id="Icon-question" src="public/SVG/question-solid.svg" alt="Icone du menu question">
+      </div>
+      <div class="container-icon" id="Container-icon-menu" status="close">
+        <img class="icone" id="Icon-menu" src="public/SVG/menu-carre.svg" alt="Icone du menu carre">
       </div>
     </div>
   </div>

@@ -1,11 +1,12 @@
 // Function which are executed when the page is loaded (see OnLoad.js) and which change the state of the like button if the "like" cookie exists
 function ifLike () {
-  document.getElementById("rond-coeur").addEventListener("click", clickJaime);
+  let rondCoeur = document.getElementById("Rond-coeur");
+  rondCoeur.addEventListener("click", clickJaime);
   var like = getCookie("like");
   if (like !== "") {
-    document.getElementById('rond-coeur').style.background = '#bb2303';
-    document.getElementById("rond-coeur").style.boxShadow = "0px 0px 0px 0px #e82c04";
-    document.getElementById("rond-coeur").setAttribute("data-vote", "1");
+    rondCoeur.style.background = '#bb2303';
+    rondCoeur.style.boxShadow = "0px 0px 0px 0px #e82c04";
+    rondCoeur.setAttribute("data-vote", "1");
   }
 }
 
@@ -16,6 +17,9 @@ function ifLike () {
 // - Modify the value of the number of likes on the front
 // - Modify the value of the number of likes in the database
 function clickJaime() {
+
+  let rondCoeur = document.getElementById("Rond-coeur");
+
   // Get the number of likes
   var valueNombreCoeur = document.getElementById('nombre-coeur').innerHTML;
   var like = getCookie("like");
@@ -23,9 +27,9 @@ function clickJaime() {
   if (like !== "") {
     // If cookie exist
     setCookie('like', '1', 0);
-    document.getElementById('rond-coeur').style.background = '#e82c04';
-    document.getElementById("rond-coeur").style.boxShadow = "0px 0px 5px 1px #e82c04";
-    document.getElementById("rond-coeur").setAttribute("data-vote", "0");
+    rondCoeur.style.background = '#e82c04';
+    rondCoeur.style.boxShadow = "0px 0px 5px 1px #e82c04";
+    rondCoeur.setAttribute("data-vote", "0");
     valueNombreCoeur = parseInt(valueNombreCoeur) - 1;
     document.getElementById('nombre-coeur').innerHTML = valueNombreCoeur;
     // AJAX request to call the addLike.php file
@@ -35,9 +39,9 @@ function clickJaime() {
   } else {
     // If there are no cookie
     setCookie('like', '1', 365);
-    document.getElementById('rond-coeur').style.background = '#bb2303';
-    document.getElementById("rond-coeur").style.boxShadow = "0px 0px 0px 0px #e82c04";
-    document.getElementById("rond-coeur").setAttribute("data-vote", "1");
+    rondCoeur.style.background = '#bb2303';
+    rondCoeur.style.boxShadow = "0px 0px 0px 0px #e82c04";
+    rondCoeur.setAttribute("data-vote", "1");
     valueNombreCoeur = parseInt(valueNombreCoeur) + 1;
     document.getElementById('nombre-coeur').innerHTML = valueNombreCoeur;
     // AJAX request to call the addLike.php file
