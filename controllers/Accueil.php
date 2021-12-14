@@ -18,6 +18,7 @@ $scripts = ['public/JS/JS_Accueil/ScriptEcriture.js',
 'public/JS/JS_Accueil/Title.js',
 'public/JS/JS_Accueil/Like.js',
 'public/JS/JS_Accueil/Accueil_OnLoad.js',
+'public/JS/AnimationMenu.js',
 'public/JS/Ajax.js',
 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js']; // Links of JS
 
