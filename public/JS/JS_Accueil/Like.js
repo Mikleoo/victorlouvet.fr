@@ -21,7 +21,7 @@ function clickJaime() {
   let rondCoeur = document.getElementById("Rond-coeur");
 
   // Get the number of likes
-  var valueNombreCoeur = document.getElementById('nombre-coeur').innerHTML;
+  var valueNombreCoeur = document.getElementById('Nombre-coeur').innerHTML;
   var like = getCookie("like");
 
   if (like !== "") {
@@ -31,7 +31,7 @@ function clickJaime() {
     rondCoeur.style.boxShadow = "0px 0px 5px 1px #e82c04";
     rondCoeur.setAttribute("data-vote", "0");
     valueNombreCoeur = parseInt(valueNombreCoeur) - 1;
-    document.getElementById('nombre-coeur').innerHTML = valueNombreCoeur;
+    document.getElementById('Nombre-coeur').innerHTML = valueNombreCoeur;
     // AJAX request to call the addLike.php file
     AjaxRequest('models/AddLike.php', 'POST', {
       'data-vote' : 0
@@ -43,7 +43,7 @@ function clickJaime() {
     rondCoeur.style.boxShadow = "0px 0px 0px 0px #e82c04";
     rondCoeur.setAttribute("data-vote", "1");
     valueNombreCoeur = parseInt(valueNombreCoeur) + 1;
-    document.getElementById('nombre-coeur').innerHTML = valueNombreCoeur;
+    document.getElementById('Nombre-coeur').innerHTML = valueNombreCoeur;
     // AJAX request to call the addLike.php file
     AjaxRequest('models/AddLike.php', 'POST', {
       'data-vote' : 1
